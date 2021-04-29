@@ -36,7 +36,7 @@ The project consists of the following:
 
 The following cases are covered for fourth task:
 ================================================
-* Create product -->testCreateProduct and calls verifyOnProduct.
+* Create product -->testCreateProduct and calls verifyOnProduct to check if product with id is created.
 * Get All products  -->testGetAllProducts
 * Try to get product with invalid id -->checkNotFoundProduct
 * Create product with empty data -->testCreateProductWithInvalidData
