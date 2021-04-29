@@ -21,7 +21,7 @@ Project with data driven with Selenium and TestNG for the following scenarios (F
 * TC#14 login-wrong password
 * TC#15 login-valid login
 
-The data is stored in login and signup tabs in data.xls,
+The data is stored in login and signup tabs in data.xls, more testcases can be added in the future such as signup with existing id.
 
 The project consists of the following:
 --------------------------------------
@@ -47,10 +47,8 @@ The following cases are covered for fourth task:
 
 Installation:
 --------------
-This project is a maven project, and can be imported in eclipse/intellij. The chrome driver should to be stored in src\chromedriver.exe, the version should be the same as the chrome browser on your machine and can be downloaded from.
+This project is a maven project, and can be imported in eclipse/intellij. The chrome driver should to be stored in src\chromedriver.exe, the version should be the same as the chrome browser on your machine and can be downloaded it from https://chromedriver.chromium.org/downloads.
 
-It is highly important to put chromedriver.exe for the chrome version you have in src\. You can download it from https://chromedriver.chromium.org/downloads.
-
-You will find testng file including the runners. In total with the api tests, there are 22 testcases. 15 testcases for task 3 and 7 for task 4.
+You will find testng file including the runners. In total with the api tests, there are 22 testcases. 15 testcases for task 3 and 7 for task 4. Be sure to start api-playground by typing npm start.
 
 ![image](https://user-images.githubusercontent.com/32613878/116465151-21fc0c00-a86d-11eb-877c-6c7cb1dfa897.png)
