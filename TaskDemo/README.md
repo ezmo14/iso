@@ -36,13 +36,13 @@ The project consists of the following:
 
 The following cases are covered for fourth task:
 ================================================
-* Create product
-* Get All products
-* Try to get product with invalid id
-* Create product with empty data
-* Update product that was created (depends on creation)
-* Delete product that was created (depends on creation)
-* Try to delete product that was deleted.
+* Create product -->testCreateProduct and calls verifyOnProduct.
+* Get All products  -->testGetAllProducts
+* Try to get product with invalid id -->checkNotFoundProduct
+* Create product with empty data -->testCreateProductWithInvalidData
+* Update product that was created (depends on creation) -->testUpdateProduct
+* Delete product that was created (depends on creation) -->testDeleteProduct
+* Try to delete product that was deleted. -->testDeleteNonExistingProduct
 
 
 Installation:
